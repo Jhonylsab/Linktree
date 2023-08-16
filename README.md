@@ -23,6 +23,18 @@
 
  `curl -sSL https://install.python-poetry.org | py -`
 
+ 3. Criearemos o projeto chamando o poetry usando o seguinte comando:
+ `poetry new <nome do projeto> `  
+
+ 4. Isso criará o projeto com o nome dado e com o seguinte conteúdo:
+    `poetry-demo 
+        ├── pyproject.toml
+        ├── README.md
+        ├── poetry_demo
+        │   └── __init__.py
+        └── tests
+            └── __init__.py 
+
  ## 2 - Instalação de pacotes
 
 1. Usaremos o Streamlit para criação de app web interativo. Usamos o seguinte comando.
